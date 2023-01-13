@@ -28,4 +28,4 @@ You can either use the `.py` files or `.exe` files to start the keylogging proce
 
 ## Disclaimer
 
-This tool is for educational purpose only, usage of Keylogger for attacking targets without prior mutual consent is illegal. I accept no liability and not responsible for any misuse or damage cause by this program.
+This tool is for educational purpose only, usage of keylogger for attacking targets without prior mutual consent is illegal. I accept no liability and not responsible for any misuse or damage cause by this program.
