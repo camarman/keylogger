@@ -22,7 +22,7 @@ You can either use the `.py` files or `.exe` files to start the keylogging proce
 
 `Edge.exe` is the fake browser application. Starting it will also start the keylogging process and save the output in `appdata\log.txt`
 
-`LogReader.exe` is the another application that I have written to convert the keylogger inputs into a more readable format
+`LogReader.exe` is the another application that I have written to convert the keylogger outputs into a more readable format
 
 `edit.spec.txt` is the file that contains information that I have used to convert `.py` to `.exe`
 
