@@ -1,5 +1,4 @@
-# ------ Processing Log File for Increasing Readability ------
-
+# ========== Processing Log File for Increasing Readability ==========
 import os
 
 

