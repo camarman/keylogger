@@ -1,6 +1,6 @@
 # Keylogger
 
-In this implementation of the keylogger, the main idea is to create a fake browser page. I have implemented it for *Microsoft Edge*, but you can indeed change it from the source code.
+In this implementation of the keylogger, the main idea is to create a fake browser page. I have implemented it for *Microsoft Edge*, but you can change it from the source code.
 
 ## Installation
 
@@ -16,4 +16,4 @@ to install the requirements.
 
 ## Disclaimer
 
-This tool is for educational purpose only, usage of keylogger for attacking targets without prior mutual consent is illegal. I accept no liability and not responsible for any misuse or damage cause by this program.
+This tool is for educational purposes only. The usage of a keylogger for attacking targets without prior mutual consent is illegal. I accept no liability and responsibility for any misuse or damage caused by this program.
