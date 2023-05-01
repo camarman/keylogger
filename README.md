@@ -6,7 +6,7 @@ In this implementation of the keylogger, the main idea is to create a fake brows
 
 You can easily install the keylogger by either cloning the repository
 
-    git clone https://github.com/seVenVo1d/keylogger.git
+    git clone https://github.com/camarman/keylogger.git
 
 or via downloading as ZIP. Later on, you can simply run
 
